@@ -1,5 +1,6 @@
 <?php
 include "conn.php";
+// this is the pie chart part
 if (isset($_POST['submit'])) {
 
     $semester_name = $_POST['semester_name'];
